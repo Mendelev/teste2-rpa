@@ -19,6 +19,7 @@ steps:
     projectJsonPath: 'project.json'
     outputType: 'Process'
     outputPath: '$(Build.ArtifactStagingDirectory)\Output'
+    traceLevel: 'Verbose'
 
 - task: UiPathDeploy@4
   inputs:
